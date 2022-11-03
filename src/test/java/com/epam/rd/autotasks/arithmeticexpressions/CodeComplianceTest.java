@@ -1,4 +1,4 @@
-package com.epam.rd.autotasks.arithmeticexpressions;
+package com.epam.training.student_veronika_tarasova.arithmetic_expressions.src.test.java.com.epam.rd.autotasks.arithmeticexpressions;
 
 
 import org.junit.jupiter.api.BeforeAll;

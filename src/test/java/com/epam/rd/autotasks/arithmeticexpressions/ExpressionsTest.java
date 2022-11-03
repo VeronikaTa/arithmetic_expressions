@@ -1,29 +1,12 @@
-package com.epam.rd.autotasks.arithmeticexpressions;
+package com.epam.training.student_veronika_tarasova.arithmetic_expressions.src.test.java.com.epam.rd.autotasks.arithmeticexpressions;
 
+import com.epam.training.student_veronika_tarasova.arithmetic_expressions.src.main.java.com.epam.rd.autotasks.arithmeticexpressions.Expression;
+import com.epam.training.student_veronika_tarasova.arithmetic_expressions.src.main.java.com.epam.rd.autotasks.arithmeticexpressions.Variable;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.Arguments;
-import org.junit.jupiter.params.provider.MethodSource;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.StandardOpenOption;
-import java.util.List;
-import java.util.Random;
-import java.util.function.BinaryOperator;
-import java.util.regex.Pattern;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
-import static com.epam.rd.autotasks.arithmeticexpressions.Expressions.difference;
-import static com.epam.rd.autotasks.arithmeticexpressions.Expressions.fraction;
-import static com.epam.rd.autotasks.arithmeticexpressions.Expressions.product;
-import static com.epam.rd.autotasks.arithmeticexpressions.Expressions.sum;
-import static com.epam.rd.autotasks.arithmeticexpressions.Expressions.val;
-import static com.epam.rd.autotasks.arithmeticexpressions.Expressions.var;
-import static org.junit.jupiter.api.Assertions.*;
-import static org.junit.jupiter.params.provider.Arguments.arguments;
+import static com.epam.training.student_veronika_tarasova.arithmetic_expressions.src.main.java.com.epam.rd.autotasks.arithmeticexpressions.Expressions.*;
+import static org.junit.jupiter.api.Assertions.assertAll;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ExpressionsTest {
 

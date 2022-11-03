@@ -1,7 +1,4 @@
-package com.epam.rd.autotasks.arithmeticexpressions;
-
-import java.util.Arrays;
-import java.util.StringJoiner;
+package com.epam.training.student_veronika_tarasova.arithmetic_expressions.src.main.java.com.epam.rd.autotasks.arithmeticexpressions;
 
 public class Expressions {
 
